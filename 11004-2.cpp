@@ -12,11 +12,11 @@ using namespace std;
 int main(){
     int n,k;
     int a[5000000];
-    cin>>n>>k;
+    scanf("%d %d",&n,&k);
     for(int i=0;i<n;i++){
-        cin>>a[i];
+        scanf("%d",&a[i]);
     }
     nth_element(a,a+k-1,a+n);
-    cout<<a[k-1];
+    printf("%d\n",a[k-1]);
     return 0;
 }
