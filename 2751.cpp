@@ -2,23 +2,25 @@
 //  2751.cpp
 //  
 //
-//  Created by 우소연 on 2018. 2. 15..
+//  Created by 우소연 on 27/07/2020.
 //
 
 #include <stdio.h>
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 int main(){
     int n;
-    int a[1000002]={0};
-    cin>>n;
-    for(int i=0;i<n;i++){
-        cin>>a[i];
+    scanf("%d", &n);
+    int a[1000002] = {0};
+    for(int i = 0; i< n; i++){
+        scanf("%d", &a[i]);
     }
-    sort(a,a+n);
-    for(int j=0;j<n;j++){
-        cout<<a[j]<<'\n';
+    sort(a, a + n);
+    for(int i = 0; i< n; i++){
+        printf("%d\n", a[i]);
     }
     return 0;
 }
