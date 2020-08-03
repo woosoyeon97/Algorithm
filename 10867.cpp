@@ -26,3 +26,30 @@ int main(){
     }
     return 0;
 }
+//계수 정렬
+//#include <stdio.h>
+//#include <iostream>
+//#include <algorithm>
+//#include <vector>
+//using namespace std;
+//int main(){
+//    int n;
+//    cin>> n;
+//    bool a[2002] = {false};
+//    int max = -1;
+//    for(int i = 0; i< n; i++){
+//        int idx;
+//        cin>> idx;
+//        idx += 1000;
+//        a[idx] = true;
+//        if(max < idx){
+//            max = idx;
+//        }
+//    }
+//    for(int j = 0; j<= max; j++){
+//        if(a[j] == true){
+//            cout<< j - 1000 << " ";
+//        }
+//    }
+//    return 0;
+//}
