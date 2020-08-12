@@ -2,7 +2,7 @@
 //  11652.cpp
 //  
 //
-//  Created by 우소연 on 2018. 2. 15..
+//  Created by 우소연 on 12/08/2020.
 //
 
 #include <stdio.h>
@@ -36,4 +36,3 @@ int main(){
     cout<<num<<'\n';
     return 0;
 }
-
